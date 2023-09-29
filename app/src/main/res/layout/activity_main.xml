@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/number1"
+        android:hint="Nhập số thứ nhất"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/number2"
+        android:hint="Nhập số thứ hai"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/cong"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Cộng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/tru"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Trừ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/nhan"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Nhân"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/chia"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="Chia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
